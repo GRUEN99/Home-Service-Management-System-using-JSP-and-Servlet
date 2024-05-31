@@ -33,8 +33,11 @@ Apache Tomcat: Server for deploying the web application.
 
 
 SET UP FOR MYSQL DATABASE
+
 CREATE DATABASE mini_project;
+
 USE mini_project;
+
 CREATE TABLE clientdetails (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
