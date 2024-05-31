@@ -90,7 +90,7 @@ bookingsServlet.java
 
 FUTURE ENHANCEMENTS
 
-User Authentication and Authorization
-Service Provider Module
+User Authentication and Authorization,
+Service Provider Module,
 Payment Integration etc.
 These enhancements can significantly improve the functionality and user experience of the Home Service Provider platform, making it more robust, secure, and user-friendly.
