@@ -6,30 +6,30 @@ This project is a web-based application for managing home services, bookings, an
 
 FEATURES
 
-Client Sign Up: Allows new clients to register by providing their details such as name, Aadhaar number, mobile number, state, country, and location.
+-Client Sign Up: Allows new clients to register by providing their details such as name, Aadhaar number, mobile number, state, country, and location.
 
-Service Management: Enables the addition of various home services along with their prices.
+-Service Management: Enables the addition of various home services along with their prices.
 
-Booking Management: Clients can book services by specifying the date, day, and time. The system stores and manages these bookings.
+-Booking Management: Clients can book services by specifying the date, day, and time. The system stores and manages these bookings.
 
-Client Deletion: Administrators can delete client entries from the database by providing the client’s name.
+-Client Deletion: Administrators can delete client entries from the database by providing the client’s name.
 
-Dashboard: A dashboard that redirects to different functionalities like services, bookings, and invoices.
+-Dashboard: A dashboard that redirects to different functionalities like services, bookings, and invoices.
 
 
 TECHNOLOGIES USED
 
-Java: Backend logic implementation using Servlets.
+-Java: Backend logic implementation using Servlets.
 
-JSP (JavaServer Pages): For dynamic web pages.
+-JSP (JavaServer Pages): For dynamic web pages.
 
-HTML & CSS: Frontend design and styling.
+-HTML & CSS: Frontend design and styling.
 
-JavaScript: Client-side scripting for form handling.
+-JavaScript: Client-side scripting for form handling.
 
-MySQL: Database management for storing client details, services, and bookings.
+-MySQL: Database management for storing client details, services, and bookings.
 
-Apache Tomcat: Server for deploying the web application.
+-Apache Tomcat: Server for deploying the web application.
 
 
 SET UP FOR MYSQL DATABASE
@@ -67,25 +67,25 @@ CREATE TABLE bookings (
 
 PROJECT STRUCTURE
 
-clientDetails.jsp: JSP page for client sign-up.
+-clientDetails.jsp: JSP page for client sign-up.
 
-clientDelete.jsp: JSP page for deleting client details.
+-clientDelete.jsp: JSP page for deleting client details.
 
-services.jsp: JSP page for adding services.
+-services.jsp: JSP page for adding services.
 
-bookings.jsp: JSP page for making bookings.
+-bookings.jsp: JSP page for making bookings.
 
-dashboard.jsp: Dashboard page with links to various functionalities.
+-dashboard.jsp: Dashboard page with links to various functionalities.
 
-servlets: Java servlets for handling requests and business logic.
+-servlets: Java servlets for handling requests and business logic.
 
-clientDetailsServlet.java
+-clientDetailsServlet.java
 
-clientDeleteServlet.java
+-clientDeleteServlet.java
 
-servicesServlet.java
+-servicesServlet.java
 
-bookingsServlet.java
+-bookingsServlet.java
 
 
 FUTURE ENHANCEMENTS
